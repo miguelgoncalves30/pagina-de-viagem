@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--background-default);
+}
+
+#container {
+  width: 829px;
+  margin: 40px auto;
+}
+#titulo p {
+  color: var(--text-headline);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+#titulo h1 {
+  color: var(--text-primary);
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+#imagem p {
+  margin-top: 24px;
+  color: var(--text-secondary);
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.titulo-lista {
+  padding-top: 64px;
+}
+.titulo-lista span {
+  color: var(--text-headline);
+  font-size: 16px;
+  font-weight: bold;
+}
+.titulo-lista h2 {
+  font-size: 32px;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.titulo-lista p {
+  font-size: 16px;
+  margin-bottom: 64px;
+  color: var(--text-secondary);
+}
+.card-travel h3 {
+  margin-top: 20px;
+  font-size: 28px;
+  color: var(--text-primary);
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.card-travel p {
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+#informacoes {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 48px;
+  color: var(--text-secondary);
+}
+
+#informacoes .azul {
+  color: var(--accent-blue);
+}
+#informacoes .roxo {
+  color: var(--accent-purple);
+}
+#informacoes .laranja {
+  color: var(--accent-orange);
+  margin-bottom: 40px;
+}
+#informacoes .rosa {
+  color: var(--accent-pink);
+}
+.complemento {
+  padding-top: 40px;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+footer {
+  text-align: center;
+  color: var(--text-secondary);
+
+  font-size: 16px;
+  margin-top: 50px;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
